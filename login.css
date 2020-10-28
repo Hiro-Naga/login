@@ -3,13 +3,13 @@
 }
 .login-id {
   text-align: center;
+  margin: 5px;
 }
 .login-password {
   text-align: center;
+  margin: 5px;
 }
-.login-submit {
+.login-button-wrapper {
   text-align: center;
-}
-.login-button {
-  font-size: 10px;
+  margin: 5px;
 }

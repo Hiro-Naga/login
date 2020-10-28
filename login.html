@@ -3,15 +3,25 @@
   <head>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="login.css">
-    <script type="text/javascript" src="login.js"></script>
     <title>ログインページ</title>
   </head>
   <body>
-    <div class="login-title">メンバーログイン</div>
-    <div class="login-id">ID:<input type="text"></div>
-    <div class="login-password">PW:<input type="password"></div>
-    <div class="login-submit">
-      <button class="login-button" type="button">ログイン</button>
-    </div>
+    <form id="login-form">
+      <div class="login-title">
+        <lavel>メンバーログイン</lavel>
+      </div>
+      <div class="login-id">
+        <lavel>ID:</lavel>
+        <input type="text" id="login-id" placeholder="id">
+      </div>
+      <div class="login-password">
+        <lavel>PW:</lavel>
+        <input type="password" id="login-password" placeholder="password">
+      </div>
+      <div class="login-button-wrapper">
+        <button class="submit-button" type="button" id="submit-button">ログイン</button>
+      </div>
+    </form>
   </body>
+  <script type="text/javascript" src="login.js"></script>
 </html>
