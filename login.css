@@ -3,13 +3,20 @@
 }
 .login-id {
   text-align: center;
-  margin: 5px;
+  margin-bottom: 5px;
 }
 .login-password {
   text-align: center;
-  margin: 5px;
+  margin-bottom: 5px;
 }
 .login-button-wrapper {
   text-align: center;
   margin: 5px;
+}
+.error-message {
+  color: red;
+  font-size: 12px;
+}
+.hidden-message {
+  display: none;
 }
